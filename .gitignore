@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data files (usually too large for git)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.parquet
+
+# FAISS index files (generated artefacts)
+*.faiss
+*.index
+
+# Model files (too large for git)
+*.pkl
+*.pt
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# MLflow / experiment tracking
+mlruns/
+wandb/
+
